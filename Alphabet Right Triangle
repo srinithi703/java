@@ -1,0 +1,14 @@
+import java.util.*;
+public class Solution {
+public static void main(String[] args) {
+scanner sc = new scanner (system.in);
+int n = sc.nextint();
+char ch ="A";
+for(int i=1;i<=n;i++)
+{
+for(int j=1;j<=n;j++)
+{
+system.out.print(ch+++" ");
+}
+system.out.println();
+}
